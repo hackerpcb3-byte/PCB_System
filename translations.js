@@ -495,6 +495,33 @@ const translations = {
     'Materia/Departamento': 'Subject/Department',
     'Información Importante': 'Important Information',
     'Para comunicarte con un maestro, puedes enviar un correo electrónico directamente haciendo clic en la dirección de correo. Se recomienda incluir el nombre del estudiante y el asunto claramente en el mensaje.': 'To contact a teacher, you can send an email directly by clicking on the email address. It is recommended to include the student\'s name and the subject clearly in the message.',
+
+    // Servicios-tecnicos.html
+    'Soporte técnico y mantenimiento de equipos escolares': 'Technical support and maintenance of school equipment',
+    'Acerca del Servicio': 'About the Service',
+    'El Departamento de Servicios Técnicos brinda soporte y mantenimiento a los equipos tecnológicos de la escuela, incluyendo computadoras, proyectores, impresoras y otros dispositivos electrónicos.': 'The Technical Services Department provides support and maintenance for the school\'s technological equipment, including computers, projectors, printers and other electronic devices.',
+    'Nuestro objetivo es garantizar que todos los recursos tecnológicos estén disponibles y funcionando correctamente para apoyar el proceso educativo.': 'Our goal is to ensure that all technological resources are available and functioning properly to support the educational process.',
+    'Lunes a Viernes:': 'Monday to Friday:',
+    'Oficina de Servicios Técnicos': 'Technical Services Office',
+    'Para emergencias técnicas, contactar a la oficina administrativa': 'For technical emergencies, contact the administrative office',
+    'Mantenimiento de computadoras': 'Computer maintenance',
+    'Reparación de equipos electrónicos': 'Electronic equipment repair',
+    'Instalación de software educativo': 'Educational software installation',
+    'Soporte técnico a maestros': 'Technical support for teachers',
+    'Configuración de proyectores y pantallas': 'Projector and screen configuration',
+    'Mantenimiento de impresoras': 'Printer maintenance',
+    'Soporte de red e internet': 'Network and internet support',
+    'Actualización de sistemas': 'System updates',
+    'Cómo Solicitar Servicio': 'How to Request Service',
+    'Reportar el problema a la oficina administrativa': 'Report the problem to the administrative office',
+    'Describir detalladamente el problema técnico': 'Describe the technical problem in detail',
+    'Indicar la ubicación del equipo': 'Indicate the location of the equipment',
+    'Esperar la visita del técnico': 'Wait for the technician\'s visit',
+    'Se atenderán las solicitudes por orden de prioridad': 'Requests will be handled in order of priority',
+    'Política de Uso de Equipos': 'Equipment Use Policy',
+    'Todos los equipos tecnológicos de la escuela deben ser utilizados exclusivamente con fines educativos. Los estudiantes y el personal deben seguir las normas de uso responsable de la tecnología establecidas por el Departamento de Educación.': 'All school technological equipment must be used exclusively for educational purposes. Students and staff must follow the responsible use of technology standards established by the Department of Education.',
+    'Contacta con la oficina administrativa para más detalles sobre servicios técnicos': 'Contact the administrative office for more details about technical services',
+    'Acceder al servicio': 'Access the service',
   }
 };
 

@@ -536,16 +536,18 @@ body {
 }
 
 .hero-layout {
-  display: grid;
-  grid-template-columns: minmax(0, 2fr) minmax(0, 1.1fr);
-  gap: 3rem;
+  display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
+  gap: 3rem;
   position: relative;
   z-index: 1;
 }
 
 .hero-text {
   animation: slideInLeft 0.8s ease;
+  text-align: center;
 }
 
 .hero-text h1 {
@@ -560,6 +562,8 @@ body {
 .hero-text p {
   font-size: 1.15rem;
   max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
   color: rgba(255, 255, 255, 0.95);
   line-height: 1.7;
   text-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
@@ -570,6 +574,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
+  justify-content: center;
 }
 
 /* Botones generales */
@@ -655,6 +660,7 @@ body {
   backdrop-filter: blur(10px);
   border-radius: 20px;
   padding: 2rem;
+  margin-top: 2rem;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
   border: 1px solid rgba(0, 0, 0, 0.05);
   animation: slideInRight 0.8s ease;
@@ -754,6 +760,26 @@ body {
   gap: 1.6rem;
 }
 
+/* Contacto centralizado */
+.contact-centered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.contact-info {
+  text-align: center;
+  width: 100%;
+}
+
+.contact-info p {
+  margin-bottom: 1rem;
+  font-size: 1.05rem;
+}
+
 .grid-3 {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -824,6 +850,10 @@ body {
   line-height: 1.7;
 }
 
+.card .btn {
+  margin-top: 1.5rem;
+}
+
 .card ul {
   padding-left: 1.5rem;
   font-size: 1rem;
@@ -845,6 +875,7 @@ body {
   font-size: 0.9rem;
   color: var(--text-soft);
   margin-top: 1rem;
+  margin-bottom: 1.5rem;
   font-style: italic;
 }
 
