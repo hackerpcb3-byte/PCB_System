@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Centro de Recursos – Biblioteca Escolar</title>
+  <title>Promociones – Escuela Superior Vocacional Pablo Colón Berdecia</title>
   <link rel="stylesheet" href="styles.css">
   <script src="translations.js"></script>
 </head>
@@ -104,13 +104,13 @@
   </header>
 
   <!-- Hero -->
-  <section class="hero" style="min-height: 350px; padding: 4rem 0;">
+  <section class="hero">
     <div class="container">
-      <div class="section-header" style="margin-bottom: 0;">
-        <div style="font-size: 5rem; margin-bottom: 1rem;">📚</div>
-        <h1 style="color: #ffffff; font-size: 3rem; text-shadow: 0 2px 20px rgba(0,0,0,0.5);" data-translate="Centro de Recursos de la Biblioteca">Centro de Recursos de la Biblioteca</h1>
-        <p style="color: rgba(255,255,255,0.95); font-size: 1.2rem; max-width: 800px; margin: 1rem auto;" data-translate="Acceso completo a todos los recursos, servicios y herramientas de nuestra biblioteca escolar">
-          Acceso completo a todos los recursos, servicios y herramientas de nuestra biblioteca escolar
+      <div class="hero-content-centered">
+        <div style="font-size: 5rem; margin-bottom: 1rem;">📢</div>
+        <h1 data-translate="Promociones Recientes">Promociones Recientes</h1>
+        <p data-translate="Conoce las últimas promociones y eventos de nuestra escuela">
+          Conoce las últimas promociones y eventos de nuestra escuela
         </p>
       </div>
     </div>
@@ -119,25 +119,30 @@
   <!-- Contenido principal -->
   <section class="section">
     <div class="container">
-      <!-- Servicios Principales -->
-      <div class="section-header">
-        <h2 data-translate="📖 Servicios Principales">📖 Servicios Principales</h2>
-        <p data-translate="Accede rápidamente a los servicios más utilizados de la biblioteca">Accede rápidamente a los servicios más utilizados de la biblioteca</p>
+      <!-- Galería de promociones -->
+      <div class="promotions-gallery">
+        <div class="promotion-item">
+          <img src="galeriadepromociones/image1.jpeg" alt="Promoción 1" class="promotion-image">
+          <div class="promotion-caption">
+            <h3 data-translate="Inscripción Abierta 2026">Inscripción Abierta 2026</h3>
+            <p data-translate="¡Únete a nuestra familia educativa!">¡Únete a nuestra familia educativa!</p>
+          </div>
+        </div>
+
+        <!-- Aquí se pueden agregar más imágenes de promociones -->
+        <div class="promotion-placeholder">
+          <div class="placeholder-icon">📸</div>
+          <p data-translate="Más promociones próximamente">Más promociones próximamente</p>
+        </div>
       </div>
 
-      <div class="grid-3" style="margin-bottom: 3rem;">
-        <a href="pdfs/Opusculo biblioteca.pdf" class="btn btn-primary" style="padding: 1.5rem; font-size: 1.1rem;" target="_blank" rel="noopener" data-translate="📚 Opúsculo de la Biblioteca">
-          📚 Opúsculo de la Biblioteca
-        </a>
-      </div>
-
-      <!-- Botón de regreso -->
+      <!-- Llamado a la acción -->
       <div class="programs-cta">
-        <a href="biblioteca.html" class="btn btn-primary" data-translate="← Volver a Biblioteca">
-          ← Volver a Biblioteca
+        <a href="index.html#inicio" class="btn btn-primary">
+          ← <span data-translate="Volver al inicio">Volver al inicio</span>
         </a>
-        <a href="index.html" class="btn btn-secondary" data-translate="🏠 Volver al Inicio">
-          🏠 Volver al Inicio
+        <a href="index.html#contacto" class="btn btn-secondary">
+          📞 <span data-translate="Contactar Escuela">Contactar Escuela</span>
         </a>
       </div>
     </div>
@@ -146,10 +151,11 @@
   <!-- Footer -->
   <footer class="site-footer">
     <p data-translate="© 2026 Escuela Superior Vocacional Pablo Colón Berdecia. Todos los derechos reservados.">
-      &copy; 2026 Escuela Superior Vocacional Pablo Colón Berdecia. Todos los derechos reservados.
+      © 2026 Escuela Superior Vocacional Pablo Colón Berdecia. Todos los derechos reservados.
     </p>
   </footer>
 
   <script src="script.js"></script>
 </body>
 </html>
+

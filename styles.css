@@ -90,7 +90,8 @@ body.dark-mode .card {
 }
 
 body.dark-mode .card:hover {
-  box-shadow: 0 8px 30px rgba(74, 144, 226, 0.2);
+  /* Efecto de movimiento desactivado */
+  /* box-shadow: 0 8px 30px rgba(74, 144, 226, 0.2); */
 }
 
 /* Footer en modo oscuro */
@@ -173,8 +174,9 @@ body.dark-mode .program-card {
 
 body.dark-mode .service-card:hover,
 body.dark-mode .program-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 30px rgba(74, 144, 226, 0.3);
+  /* Efecto de movimiento desactivado */
+  /* transform: translateY(-5px); */
+  /* box-shadow: 0 10px 30px rgba(74, 144, 226, 0.3); */
 }
 
 
@@ -577,6 +579,33 @@ body {
   justify-content: center;
 }
 
+/* Hero content centered */
+.hero-content-centered {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 0;
+  position: relative;
+  z-index: 1;
+}
+
+.hero-content-centered h1 {
+  font-size: 3rem;
+  color: #ffffff;
+  margin-bottom: 1.5rem;
+  font-weight: 800;
+  line-height: 1.2;
+  text-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+}
+
+.hero-content-centered p {
+  font-size: 1.15rem;
+  color: rgba(255, 255, 255, 0.95);
+  line-height: 1.7;
+  margin-bottom: 2rem;
+  text-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+}
+
 /* Botones generales */
 .btn {
   display: inline-block;
@@ -797,7 +826,8 @@ body {
   padding: 2rem;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
   border: 1px solid var(--border-soft);
-  transition: all 0.3s ease;
+  /* Transición desactivada para evitar movimiento */
+  /* transition: all 0.3s ease; */
   position: relative;
   overflow: hidden;
 }
@@ -820,8 +850,9 @@ body {
 }
 
 .card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+  /* Efecto de movimiento desactivado */
+  /* transform: translateY(-5px); */
+  /* box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12); */
 }
 
 .card-icon {
@@ -832,8 +863,9 @@ body {
 }
 
 .card:hover .card-icon {
-  animation: pulse 0.6s ease;
-  transform: scale(1.1);
+  /* Efecto de movimiento desactivado */
+  /* animation: pulse 0.6s ease; */
+  /* transform: scale(1.1); */
 }
 
 .card h3,
@@ -977,11 +1009,13 @@ body {
   margin-bottom: 1rem;
   display: inline-block;
   filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.1));
-  transition: transform 0.3s ease;
+  /* Transición desactivada para evitar movimiento */
+  /* transition: transform 0.3s ease; */
 }
 
 .service-card:hover .service-icon {
-  transform: scale(1.2) rotate(10deg);
+  /* Efecto de movimiento desactivado */
+  /* transform: scale(1.2) rotate(10deg); */
   animation: none;
 }
 
@@ -1253,6 +1287,96 @@ body {
 
 .calendar-actions {
   text-align: center;
+}
+
+/* ===== Galería de Promociones ===== */
+.promotions-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.promotion-item {
+  background: var(--card);
+  border-radius: 16px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+/* IMAGEN COMPLETA */
+.promotion-image {
+  width: 100%;
+  height: 340px;          /* MÁS ALTURA para posters */
+  object-fit: contain;   /* NO recorta */
+  background-color: #0b1f3a; /* similar al fondo del poster */
+}
+
+/* TEXTO */
+.promotion-caption {
+  padding: 1.2rem;
+  text-align: center;
+}
+
+
+.promotion-item {
+  background: var(--bg-alt);
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.promotion-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.promotion-image {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  display: block;
+}
+
+.promotion-caption {
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.promotion-caption h3 {
+  color: var(--primary);
+  margin-bottom: 0.5rem;
+  font-size: 1.3rem;
+}
+
+.promotion-caption p {
+  color: var(--text-soft);
+  font-size: 1rem;
+}
+
+.promotion-placeholder {
+  background: var(--bg-alt);
+  border-radius: 15px;
+  padding: 3rem;
+  text-align: center;
+  border: 2px dashed var(--border);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 400px;
+}
+
+.placeholder-icon {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  opacity: 0.5;
+}
+
+.promotion-placeholder p {
+  color: var(--text-soft);
+  font-size: 1.1rem;
 }
 
 /* ===== Footer ===== */

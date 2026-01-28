@@ -72,6 +72,8 @@ if (menuToggle && mainNav) {
 }
 
 // ===== Animaciones al hacer scroll =====
+// DESACTIVADO: Las tarjetas ya no se animan al hacer scroll
+/*
 const observerOptions = {
   threshold: 0.1,
   rootMargin: '0px 0px -50px 0px'
@@ -93,6 +95,7 @@ document.querySelectorAll('.card, .service-card, .program-card').forEach(el => {
   el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
   observer.observe(el);
 });
+*/
 
 // ===== Smooth scroll para enlaces internos =====
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
